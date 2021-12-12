@@ -12,6 +12,6 @@
 
 <style>
 #hdjn-logo {
-  height: 180px;
+  height: 100%;
 }
 </style>
