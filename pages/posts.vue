@@ -3,7 +3,7 @@
   <Header/>
 
   <div>
-    articles
+    posts
   </div>
 </div>
 </template>

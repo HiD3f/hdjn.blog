@@ -1,11 +1,12 @@
 <template>
 <div class=" border-2 border-black row justify-between h-24">
   <div class="row flex-1">
-    <div class="h-6 px-8 row justify-center border-r-2 border-black h-full">
+    <nuxt-link to="/" class="h-6 px-8 row justify-center border-r-2 border-black h-full">
       <div class=" h-6">  <HdjnLogo/></div>
-    </div>
+    </nuxt-link>
+
     <div class="flex-1 bg-red-50 bg-opacity-40 h-full row justify-center">
-      <nuxt-link to="/articles">
+      <nuxt-link to="/posts">
         <span class="link">All Posts</span>
       </nuxt-link>
 
@@ -33,3 +34,19 @@
   @apply px-4 mx-2 text-xs uppercase font-black
 }
 </style>
+
+<script>
+export default {
+  head() {
+    return {
+      title: "HDJN÷blog",
+      // link: [
+      //   {
+      //     "rel":"stylesheet",
+      //     "href": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      //   }
+      // ]
+    }
+  }
+}
+</script>
