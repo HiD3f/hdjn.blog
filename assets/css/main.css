@@ -1,10 +1,12 @@
-body {
-  @apply bg-yellow-600 bg-opacity-25;
+html {
+  @apply h-screen w-full;
 }
 
-html, body {
-  @apply h-screen w-screen overflow-hidden
+
+body {
+  @apply bg-yellow-600 bg-opacity-25 h-full w-full overflow-y-auto;
 }
+
 
 #__layout,#__nuxt, .page  {
      @apply h-full

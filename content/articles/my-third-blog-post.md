@@ -1,8 +1,8 @@
 ---
-title: My first Blog Post
+title: My third Blog Post
 description: Learning how to use @nuxt/content to create a blog
-img: my-first-blog-post.png
-alt: my first blog post
+img: my-third-blog-post.png
+alt: my third blog post
 author:
   name: Benjamin
   bio: All about Benjamin
