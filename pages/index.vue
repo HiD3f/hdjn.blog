@@ -4,8 +4,13 @@
   <Header/>
 
   <div class="page-body">
-    index
+    <div> index</div>
+    <div>
+        <nuxt-content :document="doc" />
+    </div>
   </div>
+
+
 </div>
 
 </template>
@@ -23,5 +28,9 @@
 
 <script>
 export default {
+  async asyncData({$content}){
+    const doc = await $content("index").fetch();
+    return {doc};
+  }
 }
 </script>
