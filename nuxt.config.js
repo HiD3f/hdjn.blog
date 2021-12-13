@@ -19,6 +19,9 @@ export default {
     ]
   },
 
+  // Loader component
+  loading: '~/components/Loader.vue',
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/main', '@/assets/css/animations'
