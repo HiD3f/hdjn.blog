@@ -1,11 +1,9 @@
 <template>
-
 <div>
   <Header/>
 
   <div>
-    index
-  </div>
+about  </div>
 </div>
 
 </template>

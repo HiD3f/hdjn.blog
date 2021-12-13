@@ -1,13 +1,11 @@
 <template>
-
 <div>
   <Header/>
 
   <div>
-    index
+    articles
   </div>
 </div>
-
 </template>
 
 <script>
