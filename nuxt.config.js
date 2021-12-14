@@ -19,6 +19,15 @@ export default {
     ]
   },
 
+  content: {
+    nestedProperties: ['author.name'],
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+  },
+
   // Loader component
   loading: '~/components/Loader.vue',
 

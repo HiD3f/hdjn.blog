@@ -31,7 +31,7 @@ This is some more info
 
 This is some more info
 
-<pre><code class="language-css" [my-first-blog-post.md]>p { color: red }</code></pre>
+<pre><code class="language-css">p { color: red }</code></pre>
 
 ## This is another heading
 

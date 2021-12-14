@@ -5,7 +5,7 @@
       <div class=" h-6">  <HdjnLogo/></div>
     </nuxt-link>
 
-    <div class="flex-1 bg-red-50 bg-opacity-40 h-full row justify-center">
+    <div class="flex-1  h-full row justify-center">
       <nuxt-link to="/posts">
         <span class="link">All Posts</span>
       </nuxt-link>

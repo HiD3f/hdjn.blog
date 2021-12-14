@@ -45,13 +45,6 @@ module.exports = {
         none: 'none',
       }
     },
-    content: {
-      markdown: {
-        prism: {
-          theme: 'prism-themes/themes/prism-material-oceanic.css'
-        }
-      }
-    },
     variants: {
       opacity: ({ after }) => after(['disabled'])
     },
