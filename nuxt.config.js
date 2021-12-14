@@ -19,8 +19,21 @@ export default {
     ]
   },
 
+  content: {
+    nestedProperties: ['author.name'],
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+  },
+
+  // Loader component
+  loading: '~/components/Loader.vue',
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/main', '@/assets/css/animations'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,6 +47,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/content'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
