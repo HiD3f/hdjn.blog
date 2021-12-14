@@ -32,13 +32,6 @@
 </template>
 
 <style scoped>
-  .page{
-    @apply bg-white
-  }
-
-  .page-body{
-    @apply bg-white
-  }
 
 </style>
 

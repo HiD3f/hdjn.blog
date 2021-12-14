@@ -6,7 +6,7 @@
   <div class="page-body">
     <div class="content-wrapper flex flex-col">
 
-      <article class=" max-w-4xl mx-auto bg-white p-8 mt-16 shadow-md">
+      <article class=" max-w-4xl mx-auto mb-16 bg-white p-8 mt-16 shadow-md">
         <div class="head mb-8">
           <h1 class=" font-bold text-4xl text-center mb-2">{{article.title}}</h1>
           <p class=" font-medium text-xl text-center mb-4">{{article.description}}</p>
@@ -27,10 +27,14 @@
 
          <author :author="article.author" />
 
-               <PrevNext :prev="prev" :next="next" />
+
       </article>
 
-
+      <div class="mb-32">
+        <div class="max-w-4xl mx-auto">
+          <PrevNext :prev="prev" :next="next" />
+        </div>
+      </div>
 
     </div>
 
