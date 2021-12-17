@@ -10,7 +10,7 @@
         <div class="head mb-8">
           <h1 class=" font-bold text-4xl text-center mb-2">{{article.title}}</h1>
           <p class=" font-medium text-xl text-center mb-4">{{article.description}}</p>
-          <img class=" w-80 h-60 bg-blue-400 mx-auto mb-2" :src="article.img" :alt="article.alt">
+          <img class=" w-80 h-60 bg-blue-400 mx-auto mb-2" :src="require('@/assets/img/' + article.img)" :alt="article.alt">
           <p class="text-center" >Post last updated: {{formatDate(article.updatedAt)}}</p>
         </div>
 

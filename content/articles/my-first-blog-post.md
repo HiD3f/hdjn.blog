@@ -1,12 +1,12 @@
 ---
 title: My first Blog Post
 description: Learning how to use @nuxt/content to create a blog
-img: my-first-blog-post.png
+img: image.png
 alt: my first blog post
 author:
   name: Benjamin
   bio: All about Benjamin
-  image: https://images.unsplash.com/.....
+  image: require('@/assets/img/image.png')
 ---
 
 ## This is a heading

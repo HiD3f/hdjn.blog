@@ -14,7 +14,7 @@
         <ul class="grid grid-cols-3">
           <li v-for="article of articles" :key="article.slug" class="col-span-3 border-2 border-black p-6 mb-8">
             <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-              <img :src="article.img" />
+              <img :src="require('@/assets/img/' + article.img)"/>
               <div>
                 <h2>{{ article.title }}</h2>
                 <p>by {{ article.author.name }}</p>
