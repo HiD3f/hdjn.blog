@@ -4,16 +4,16 @@ html {
 
 
 body {
-  @apply bg-yellow-600 bg-opacity-25 h-full w-full overflow-y-auto;
+  @apply bg-green-600 bg-opacity-25 h-full w-full overflow-y-auto;
 }
 
 
 #__layout,#__nuxt, .page  {
-     @apply h-full
+  @apply h-full
 }
 
 .page  {
-    @apply h-full flex flex-col
+  @apply min-h-full
 }
 
 .page-body {
