@@ -12,7 +12,7 @@
       <div>
         <h1 class="text-center mb-4 text-3xl font-bold">Blog Posts</h1>
         <ul class="grid grid-cols-3">
-          <li v-for="article of articles" :key="article.slug" class="col-span-3 border-2 border-black p-6 mb-8">
+          <li v-for="article of articles" :key="article.slug" class="col-span-3 border-1 border-gray-200 p-6 mb-8 bg-white shadow-md">
             <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
               <img :src="require('@/assets/img/' + article.img)"/>
               <div>

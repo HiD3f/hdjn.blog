@@ -4,7 +4,7 @@ html {
 
 
 body {
-  @apply bg-green-600 bg-opacity-25 h-full w-full overflow-y-auto;
+  @apply bg-gray-200 bg-opacity-25 h-full w-full overflow-y-auto;
 }
 
 
